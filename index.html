@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <script defer src="./src/js/script.js"></script>
+    <title>Pokedex</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="card-cointainer">
+        <section class="card">
+            <div class="image">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="" id="pokemon-img">
+            </div>
+            <div class="info">
+                <h1 id="pokemon-nome">BULBASAUR <span id="pokemon-id">- 1</span></h1>
+            </div>
+            <div class="campo-pesquisa">
+                <input id="pesquisa" type="search" placeholder="Digite o nome ou id">
+                <div class="campo-botao">
+                    <button id="botao" type="button" onclick="mostrarPokemon()">Buscar</button>
+                    <div class="campo-checkbox">
+                        <input id="botao-checkbox" type="checkbox" name="Shiny">
+                        <label id="botao-checkbox-texto" for="Shiny">Shiny?</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
