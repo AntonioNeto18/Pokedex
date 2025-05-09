@@ -5,29 +5,12 @@
 }
 
 body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: #E67E30;
     height: 100vh;
-}
-
-header {
-    background: #CC5500;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-header nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-}
-
-header nav ul li a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #000;
-    font-size: 1rem;
-    font-weight: 700;
+    width: 100%;
 }
 
 .card-cointainer {
